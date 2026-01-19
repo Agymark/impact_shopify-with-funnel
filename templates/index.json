@@ -9,39 +9,92 @@
  */
 {
   "sections": {
-    "custom_liquid_FQTEG9": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"hero-ors\" aria-label=\"Banner principale\">\n  <div class=\"hero-ors__media\" role=\"img\" aria-label=\"Genitore che usa il nebulizzatore con il proprio bambino\"></div>\n\n  <div class=\"hero-ors__content\">\n    <h1 class=\"hero-ors__title\">Bambino curato, genitore sereno</h1>\n    <p class=\"hero-ors__subtitle\">Sollievo rapido, silenzioso e sicuro, ovunque con te</p>\n  </div>\n</section>\n\n<style>\n  :root {\n    --brand: #324B51;\n  }\n\n  .hero-ors {\n    position: relative;\n    width: 100%;\n    color: #fff;\n    font-family: \"Poppins\", sans-serif;\n    margin: 0;\n    padding: 0;\n    overflow: hidden;\n    background: var(--brand);\n  }\n\n  .hero-ors__media {\n    position: absolute;\n    inset: 0;\n    background: url('https://cdn.shopify.com/s/files/1/0966/2490/2476/files/ads_produit_bebe_2.png?v=1759956091') center top 40% / cover no-repeat;\n    z-index: 0;\n  }\n\n  .hero-ors__content {\n    position: relative;\n    z-index: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    min-height: 420px;\n    padding: 40px 20px;\n    background: rgba(50, 75, 81, 0.5);\n  }\n\n  .hero-ors__title {\n    font-size: clamp(24px, 5vw, 38px);\n    font-weight: 900;\n    line-height: 1.1;\n    margin: 0 0 10px;\n    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);\n  }\n\n  .hero-ors__subtitle {\n    font-size: clamp(14px, 3vw, 18px);\n    color: #eaf3f4;\n    margin: 0 0 18px;\n    max-width: 420px;\n    line-height: 1.4;\n  }\n\n  @media (min-width: 992px) {\n    .hero-ors__content { min-height: 520px; }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_D9BbFH": {
-      "type": "rich-text",
+    "slideshow": {
+      "type": "slideshow",
       "blocks": {
-        "heading_7BGiMt": {
-          "type": "heading",
+        "slide-1": {
+          "type": "image",
           "settings": {
-            "text": "Visto su",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": ""
+            "image": "shopify://shop_images/shampoo-header.webp",
+            "mobile_image": "shopify://shop_images/pexels-karolina-grabowska-5241037_1.webp",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Filtrul care transformă apa robinetului în apă de izvor – sau banii înapoi!",
+            "title": "Gata cu Pielea Uscată și Păru!",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_7BGiMt"
+        "slide-1"
       ],
-      "custom_css": [
-        "/* Supprimer le gras dans les zones de Rich Text */.rich-text,.rich-text p,.rich-text span,.rich-text strong,.rich-text b {font-weight: normal !important;}"
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "99% clor eliminat - 0,001 mm filtrare - 92% mai puțină încrețire",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "rich_text_xFGCyf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_beh4zU": {
+          "type": "subheading",
+          "settings": {
+            "text": "Revoluționează-ți experiența la duș!"
+          }
+        },
+        "heading_XjtBfc": {
+          "type": "heading",
+          "settings": {
+            "text": "CALITATE SUPERIOARĂ",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6y8XLR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bun venit la Filterbaby – unde fiecare picătură de apă înseamnă piele catifelată și păr strălucitor. Cu filtrele noastre inovatoare, aducem puritatea apei de izvor în casa ta.</p><p><strong>De ce să ne alegi?</strong><br/>✔ 99% eliminare clor și calcar<br/>✔ Instalare în 3 minute – fără expert<br/>✔ Peste 50.000 clienți mulțumiți</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_beh4zU",
+        "heading_XjtBfc",
+        "richtext_6y8XLR"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -51,391 +104,173 @@
         "text_color": ""
       }
     },
-    "custom_liquid_Tjw38M": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .press-marquee-container {\n    overflow: hidden;\n    width: 100%;\n    background: transparent;\n  }\n  .press-marquee-track {\n    display: flex;\n    align-items: center;\n    width: max-content;\n    animation: scroll-left 25s linear infinite;\n    gap: 60px;\n  }\n  .press-marquee-track img {\n    height: 66px; /* Augmenté de 60px → 66px */\n    object-fit: contain;\n    flex-shrink: 0;\n    white-space: nowrap;\n  }\n  @keyframes scroll-left {\n    from {\n      transform: translateX(0%);\n    }\n    to {\n      transform: translateX(-50%);\n    }\n  }\n  @media (max-width: 768px) {\n    .press-marquee-track {\n      gap: 40px;\n    }\n    .press-marquee-track img {\n      height: 46px; /* Augmenté de 42px → 46px */\n    }\n  }\n</style>\n\n<div class=\"press-marquee-container\">\n  <div class=\"press-marquee-track\">\n    {% assign logos = \"\n      https://cdn.shopify.com/s/files/1/0988/5296/2568/files/1_760226b0-ca0b-4413-a60e-44f7f5820ddd.png?v=1759514107,\n      https://cdn.shopify.com/s/files/1/0988/5296/2568/files/2_a2d50219-0299-415f-9686-535f1cafaca7.png?v=1759514107,\n      https://cdn.shopify.com/s/files/1/0988/5296/2568/files/4_71af2505-16c0-47f0-aa75-cd74fe3f1e1d.png?v=1759514107,\n      https://cdn.shopify.com/s/files/1/0988/5296/2568/files/3_b26c20b1-82eb-4a24-8b4e-2d7ca0afb948.png?v=1759514107\" | split: \",\" %}\n    \n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse\">\n    {% endfor %}\n    \n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse (bis)\">\n    {% endfor %}\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_4i78Uz": {
+    "image-with-text-overlay": {
       "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+      "blocks": {
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Bun venit în lumea apei pure!"
+          }
+        },
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "FILTRU DE DUȘ REVOLUȚIONAR",
+            "heading_tag": "h1"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Aquafiltr Pro transformă apa robinetului într-un izvor de hidratare. Spune adio pielii uscate și părului lipsit de viață.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Aurenea.png",
+        "image_size": "md",
+        "image": "shopify://shop_images/pexels-timmossholder-1049687.jpg",
+        "mobile_image": "shopify://shop_images/pexels-timmossholder-1049687.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_JEMPxf": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AfDWNg": {
-          "type": "heading",
-          "settings": {
-            "text": "Un gesto. Zero crisi. Finalmente serenità.",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_AfDWNg"
-      ],
-      "custom_css": [
-        "/* Supprimer le gras dans les zones de Rich Text */.rich-text,.rich-text p,.rich-text span,.rich-text strong,.rich-text b {font-weight: normal !important;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_pApHfY": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/VIDEO AURENEA GIF.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
     },
-    "rich_text_zxUjti": {
-      "type": "rich-text",
+    "press": {
+      "type": "press",
       "blocks": {
-        "heading_mL64na": {
-          "type": "heading",
+        "16644243327ba53d2a-0": {
+          "type": "quote",
           "settings": {
-            "text": "Risultati reali. Genitori soddisfatti.",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": ""
+            "logo_width": 100,
+            "author": "Ioan***",
+            "content": "Sincer să fiu, Filtrul chiar oprește impuritățile – se vede în cartuș după câteva săptămâni. Sunt mulțumit pe deplin.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "16644243327ba53d2a-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Pop ***",
+            "content": "Nu credema că un simplu filtru poate face o așa diferență. Pielea nu mai e uscată după duș. O să mai cumpăr unul pentru părinți.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_rtzh3B": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Violeta ***",
+            "content": "Pentru mine, Folosesc Aquafiltr de 2 luni și se simte o mare diferență la duș. Îl voi recomanda și altora.",
+            "show_rating": true,
+            "rating": 5
           }
         }
       },
       "block_order": [
-        "heading_mL64na"
+        "16644243327ba53d2a-0",
+        "16644243327ba53d2a-1",
+        "quote_rtzh3B"
       ],
-      "custom_css": [
-        "/* Supprimer le gras dans les zones de Rich Text */.rich-text,.rich-text p,.rich-text span,.rich-text strong,.rich-text b {font-weight: normal !important;}"
-      ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_n4mmaJ": {
-      "type": "multi-column",
-      "blocks": {
-        "item_LtJHXA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_46c28839-c88c-40e4-929e-14fd9d0c9121.png",
-            "column_size": "3",
-            "title": "Mariana",
-            "heading_tag": "h5",
-            "content": "<p><strong>Portatile</strong> ovunque serve. Sera stessa, tosse calmata. Ha sorriso... noi respirato.      <strong>Risultato</strong>: addormentata in 10 minuti, notte tranquilla.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_PiqzQF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/La_soluzione_che_aspettavi_da_anni_per_sentirti_finalmente_a_tuo_agio_nel_tuo_corpo_3.png",
-            "column_size": "3",
-            "title": "Mathilda",
-            "heading_tag": "h4",
-            "content": "<p>Rituale dolce, <strong>silenzioso</strong>, prima della nanna. Si rilassa in minuti, dorme<strong> senza svegliarsi </strong>tutta la notte. Risveglio riposato, niente pianti né naso chiuso.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_UefVMG": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_ca28029d-068a-4f60-9caa-be9c35808ac0.png",
-            "column_size": "3",
-            "title": "Léa",
-            "heading_tag": "h5",
-            "content": "<p>Dopo settimane difficili, prima notte completa. La mattina <strong>riposato</strong> e pronto per scuola. Funziona <strong>ovunque, senza prese. </strong>Meno assenze, più forza.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_y8Gnqd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_a3c7fa73-9502-4f3f-9595-416383b4d2b3.png",
-            "column_size": "3",
-            "title": "Giuseppe",
-            "heading_tag": "h5",
-            "content": "<p>Ritorno dall'asilo + aria fredda = <strong>tosse</strong>... Lo applichiamo e si calma, la serata resta <strong>tranquilla</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_KQTYp3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/7_e78d9922-f734-4328-9ddb-1c03da646553.png",
-            "column_size": "3",
-            "title": "Alexandra",
-            "heading_tag": "h4",
-            "content": "<p>Con tutti 'sti raffreddori, è il nostro <strong>alleato</strong>. Meno casini improvvisi, più momenti in famiglia. <strong>Lo prendiamo ovunque</strong>, weekend e vacanze sereni.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_j6jqAQ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/4_95e0a4c6-2868-4a25-be98-8c177fed858d.png",
-            "column_size": "3",
-            "title": "Laura",
-            "heading_tag": "h4",
-            "content": "<p>Di solito rifiutava le 'cure'. Ora accetta <strong>volentieri</strong>, perché non fa <strong>rumore</strong>. Vederla respirare <strong>meglio</strong> è un <strong>sollievo</strong> enorme. Mi sento tranquilla e meno agitata.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_46jqfm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/6_8cfda078-151c-44dd-a34a-cebc2fa58aa7.png",
-            "column_size": "3",
-            "title": "David",
-            "heading_tag": "h4",
-            "content": "<p>Lo usiamo prima della nanna: in minuti respira <strong>meglio</strong>, la casa si rilassa. Ora sa <strong>usarlo</strong> da sola, posso lavorare <strong>tranquilla</strong> al computer.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_LtJHXA",
-        "item_PiqzQF",
-        "item_UefVMG",
-        "item_y8Gnqd",
-        "item_KQTYp3",
-        "item_j6jqAQ",
-        "item_46jqfm"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "<p> </p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured_product_D6TXJL": {
-      "type": "featured-product",
-      "blocks": {
-        "title_fTaFk6": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_aVUpEL": {
-          "type": "badges",
-          "settings": {}
-        },
-        "rating_Bp8wKx": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "image_LKxKew": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Pancia_gonfia_visibile_sotto_ogni_vestito_11.png",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "image_7EVjXh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Generated_Image_October_03_2025_-_6_09PM.png",
-            "alignment": "center",
-            "max_width": 420
-          }
-        },
-        "description_cjUwbK": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_8pV4DX": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "kaching_bundles_app_block_AntyL7": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "buy_buttons_qFkRBz": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#ffb74a",
-            "atc_button_text_color": "#1a1a1a",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "image_UVkkez": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BellaCurva_3.png",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "pickup_availability_PN3w6m": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_fTaFk6",
-        "badges_aVUpEL",
-        "rating_Bp8wKx",
-        "image_LKxKew",
-        "image_7EVjXh",
-        "description_cjUwbK",
-        "variant_picker_8pV4DX",
-        "kaching_bundles_app_block_AntyL7",
-        "buy_buttons_qFkRBz",
-        "image_UVkkez",
-        "pickup_availability_PN3w6m"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "aurenea-nebukid",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
+        "content_size": "medium",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
-    "accordion_content_D9WEDG": {
-      "type": "accordion-content",
+    "faq": {
+      "type": "faq",
       "blocks": {
-        "item_KRUdgc": {
+        "item_hGPgLh": {
           "type": "item",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "La differenza che Aurenea fa nella tua famiglia",
-            "content": "<p><strong>Quotidiano trasformato per tutta la famiglia:</strong> Niente più notti interrotte da tosse e naso chiuso. Il tuo bambino dorme sereno, tu anche. I risvegli difficili appartengono al passato.</p><p><strong>Mattine serene, notti tranquille:</strong> Respira liberamente, gioca senza fastidi, vive pienamente le giornate. Meno stanchezza, più sorrisi.</p><p><strong>La tua tranquillità:</strong> Una soluzione naturale sempre a portata di mano. Agisci subito ai primi sintomi, senza stress o corse dal medico per ogni raffreddore. Orsilane diventa il tuo alleato quotidiano, per bambini felici e genitori sereni.</p>",
-            "page": ""
+            "title": "Protejează și mașina de spălat? (Și alte aparate?)",
+            "content": "<p><br/><em>Deși Filterbaby este conceput special pentru duș, apa filtrată ajută la reducerea calcarului în TOATE aparatele casei!<br/><br/></em><strong>Reducere ~60% a depunerilor</strong> <em>TOATE aparatele</em><br/><br/></p>"
           }
         },
-        "item_NBxDVr": {
+        "item_BJegKj": {
           "type": "item",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Perché è semplice",
-            "content": "<p><strong>Nessuna competenza tecnica richiesta.</strong><br/>Riempite il serbatoio con soluzione fisiologica, posizionate la maschera sul viso del vostro bambino e premete un pulsante. Il nebulizzatore Orsilane fa tutto il resto.</p><p><strong>Tre gesti, tutto qui:</strong> Riempire, posizionare, avviare.<br/>Anche ai primi utilizzi, avete subito il pieno controllo dell’apparecchio.<br/>Nessuna impostazione complicata, nessun manuale incomprensibile – solo l’essenziale per dare sollievo rapido al vostro bambino.</p><p><strong>Pensato per i genitori sempre di corsa :</strong><br/>In pochi secondi, siete pronti. Orsilane si integra perfettamente nella vostra routine quotidiana, senza sforzo e senza bisogno di imparare nulla.</p>",
-            "page": ""
+            "title": "Se potrivește capul de duș filtratAquafiltr Pro la dușul meu existent?",
+            "content": "<p>Da, capul de duș filtrat Aquafiltr Pro are un filtru integrat și este proiectat să fie compatibil cu majoritatea furtunurilor de duș și fitingurilor standard.</p>"
           }
         },
-        "item_986Way": {
+        "item_yCzmPt": {
           "type": "item",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Pulizia e manutenzione.",
-            "content": "<p><strong>Una manutenzione minima per un’igiene massima :</strong><br/>Dopo ogni utilizzo, basta sciacquare la maschera e il serbatoio con acqua tiepida e sapone. Lasciateli asciugare all’aria, e il gioco è fatto.<br/>Nessun prodotto speciale richiesto, nessuna procedura complicata.</p><p><strong>Il filtro ultra-resistente :</strong><br/>Progettato per durare anni, il filtro integrato elimina la necessità di sostituzioni frequenti o costi extra.<br/>Un investimento duraturo che mantiene alte prestazioni stagione dopo stagione, inverno dopo inverno.</p><p><strong>Bastano pochi minuti :</strong><br/>Una pulizia rapida che si inserisce facilmente nella vostra routine quotidiana.<br/>Aurenea rimane pulito, efficace e pronto all’uso per la prossima sessione.</p>",
-            "page": ""
+            "title": "Cât de ușor este de instalat?",
+            "content": "<p>Este super ușor – o poți face singur, nu ai nevoie de instalator. Tot ce îți trebuie sunt 3 pași simpli:</p><ol><li>Demontați capul de duș original.</li><li>Înșurubați filtrul de duș Filterbaby Pro Series.</li><li>Înșurubați capul de duș original pe filtrul de duș Filterbaby Pro Series.</li></ol>"
+          }
+        },
+        "item_9tEAMH": {
+          "type": "item",
+          "settings": {
+            "title": "Ce rezultate mă pot aștepta de la utilizarea capului de duș filtrat Aquafiltr Pro?",
+            "content": "<p><br/>Vă puteți aștepta la îmbunătățiri semnificative ale pielii și părului, inclusiv reducerea erupțiilor cutanate, roșeții și iritațiilor; o piele mai moale, mai hidratată și un păr mai sănătos și mai strălucitor. Ajută pielea uscată, eczematoasă, predispusă la acnee și rozacee, și îmbunătățește sănătatea respiratorie prin eliminarea vaporilor de clor.<br/><br/></p>"
+          }
+        },
+        "item_4MqF7H": {
+          "type": "item",
+          "settings": {
+            "title": "Ce impurități elimină filtrul?",
+            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
+          }
+        },
+        "item_Q9rzTC": {
+          "type": "item",
+          "settings": {
+            "title": "Înmuierează apa capul de duș filtrat?",
+            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
+          }
+        },
+        "item_a6JTwc": {
+          "type": "item",
+          "settings": {
+            "title": "Când schimb filtrul?",
+            "content": "<p><br/>Majoritatea filtrelor de duș trebuie schimbate la fiecare 3 luni sau după filtrarea a aproximativ 10.000 de litri de apă.<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "item_KRUdgc",
-        "item_NBxDVr",
-        "item_986Way"
+        "item_hGPgLh",
+        "item_BJegKj",
+        "item_yCzmPt",
+        "item_9tEAMH",
+        "item_4MqF7H",
+        "item_Q9rzTC",
+        "item_a6JTwc"
       ],
-      "name": "Accordion content",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
-        "title": "",
+        "title": "Intrebari frecvente",
         "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Serviciul nostru de asistență pentru clienți este disponibil de luni până vineri, între orele 8:00 și 20:30.",
+        "answer_time": "Timp mediu de răspuns: 4-6 ore",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -446,236 +281,30 @@
         "accordion_text_color": ""
       }
     },
-    "video_rL8wC8": {
-      "type": "video",
-      "name": "Video",
+    "newsletter_EwrzRX": {
+      "type": "newsletter",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/video premiere page italien .mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_TLVx7R": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cB69iU": {
-          "type": "heading",
-          "settings": {
-            "text": "Aurenea vs nebulizzatori tradizionali, spray e sciroppi",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_cB69iU"
-      ],
-      "custom_css": [
-        "/* Supprimer le gras dans les zones de Rich Text */.rich-text,.rich-text p,.rich-text span,.rich-text strong,.rich-text b {font-weight: normal !important;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_xhMxjJ": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% style %}\n  :root{\n    --brand:#324B51;\n    --bg:#F6F7F8;\n    --ok:#1DB45E;\n    --ko:#EF4D4D;\n    --ink:#263238;\n    --light:#FAFAFA;\n    --line:#E6EDF0;\n  }\n  *{box-sizing:border-box;margin:0;padding:0}\n\n  .cmp-wrap{max-width:960px;margin:0 auto;padding:14px}\n  .cmp-card{background:#fff;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.08);overflow:hidden}\n  .cmp-pad{padding:8px}\n  .cmp-title{padding:10px 12px 6px;text-align:center;color:var(--brand);font-weight:800}\n\n  .cmp-table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed}\n  .cmp-table th,.cmp-table td{padding:14px 12px;vertical-align:middle}\n\n  .col-crit{\n    width:44%;color:var(--ink);font-weight:800;background:#fff;\n    word-break:break-word;\n  }\n  .col-or{width:28%;background:var(--brand);color:#fff;text-align:center;font-weight:900}\n  .col-ot{width:28%;background:var(--light);color:var(--ink);text-align:center;font-weight:900}\n\n  .head-crit{background:#fff;border-bottom:1px solid var(--line)}\n  .head-or{background:var(--brand);color:#fff;border-bottom:1px solid rgba(255,255,255,.15)}\n  .head-ot{background:var(--light);border-bottom:1px solid #EDEFF1}\n\n  .prod-head{display:flex;align-items:center;gap:8px;justify-content:center;flex-direction:column}\n  .prod-img{width:64px;height:64px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.12);overflow:hidden}\n  .prod-img img{width:100%;height:100%;object-fit:contain}\n  .prod-name{font-size:13px;line-height:1.2;text-transform:uppercase;letter-spacing:.3px}\n\n  .cmp-table tr:not(.head) td{border-top:1px solid var(--line)}\n  .cmp-table tr td.col-or{border-top:1px solid rgba(255,255,255,.15)}\n  .cmp-table tr td.col-ot{border-top:1px solid #EDEFF1}\n\n  .mark{\n    width:36px;height:36px;border-radius:50%;\n    display:inline-flex;align-items:center;justify-content:center;\n    background:#fff;font-weight:900;box-shadow:0 2px 8px rgba(0,0,0,.08)\n  }\n  .ok{color:var(--ok)} .ko{color:var(--ko)}\n\n  .price-or,.price-ot{\n    font-weight:900;line-height:1;white-space:nowrap;word-break:keep-all;\n    display:inline-block;\n    font-size:clamp(9px, 2.1vw, 12px);\n    letter-spacing:-.2px;\n  }\n  .price-or{color:#fff}\n  .price-ot{color:#E53935}\n\n  .cmp-table tr.head th:first-child{border-top-left-radius:16px}\n  .cmp-table tr.head th:last-child{border-top-right-radius:16px}\n  .cmp-table tr.last td:first-child{border-bottom-left-radius:16px}\n  .cmp-table tr.last td:last-child{border-bottom-right-radius:16px}\n\n  @media (max-width:560px){\n    .cmp-wrap{padding:10px}\n    .cmp-title{font-size:14px}\n    .cmp-table th,.cmp-table td{padding:12px 10px}\n    .col-crit{width:40%}\n    .col-or,.col-ot{width:30%}\n    .prod-img{width:54px;height:54px}\n    .prod-name{font-size:10.5px}\n    .mark{width:30px;height:30px;font-size:14px}\n  }\n{% endstyle %}\n\n<div class=\"cmp-wrap\">\n  <div class=\"cmp-card\">\n    <div class=\"cmp-title\"></div>\n    <div class=\"cmp-pad\">\n      <table class=\"cmp-table\">\n        <tr class=\"head\">\n          <th class=\"head-crit col-crit\"></th>\n          <th class=\"head-or col-or\">\n            <div class=\"prod-head\">\n              <div class=\"prod-img\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0966/2490/2476/files/Copie_de_photo_produit_SCP_2.png?v=1759341676\" alt=\"Aurenea Respikid\">\n              </div>\n              <div class=\"prod-name\">Aurenea NebuKid</div>\n            </div>\n          </th>\n          <th class=\"head-ot col-ot\">\n            <div class=\"prod-head\">\n              <div class=\"prod-img\" style=\"background:#fff\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0966/2490/2476/files/Copie_de_photo_produit_SCP_3.png?v=1759342039\" alt=\"Sciroppi / Spray / Farmaci\">\n              </div>\n              <div class=\"prod-name\" style=\"color:var(--brand)\">Sciroppi / Spray / Farmaci</div>\n            </div>\n          </th>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">Azione respiratoria completa</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ok\">✓</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">100% naturale (soluzione fisiologica)</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ko\">✗</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">Senza effetti collaterali</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ko\">✗</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">Adatto dalla nascita</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ko\">✗</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">Allevia tosse e raffreddore</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ok\">✓</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"col-crit\">Economico a lungo termine</td>\n          <td class=\"col-or\"><span class=\"mark ok\">✓</span></td>\n          <td class=\"col-ot\"><span class=\"mark ko\">✗</span></td>\n        </tr>\n\n        <tr class=\"last\">\n          <td class=\"col-crit\">Prezzo / Costo</td>\n          <td class=\"col-or\"><span class=\"price-or\">Acquisto unico</span></td>\n          <td class=\"col-ot\"><span class=\"price-ot\">Costo ricorrente</span></td>\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_gDdzEn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wPxJGM": {
-          "type": "heading",
-          "settings": {
-            "text": "Domande? Risposte. Ordinate sereni.",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_wPxJGM"
-      ],
-      "custom_css": [
-        "/* Supprimer le gras dans les zones de Rich Text */.rich-text,.rich-text p,.rich-text span,.rich-text strong,.rich-text b {font-weight: normal !important;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "faq_fL4TNB": {
-      "type": "faq",
-      "blocks": {
-        "item_4EwCnx": {
-          "type": "item",
-          "settings": {
-            "title": "Mio figlio ha paura? Aurenea lo aiuterà?",
-            "content": "<p><strong>Orsilane</strong> è stato progettato pensando proprio a questo: è <strong>completamente silenzioso</strong>, quindi non spaventa più i bambini con quel rumore forte e <strong>spaventoso</strong>. Molti genitori ci dicono che i loro figli ora accettano il trattamento senza <strong>lacrime,</strong> e alcuni si <strong>addormentano</strong> persino durante l'utilizzo. Finalmente potete curare vostro figlio senza <strong>battaglie e stress.</strong></p>"
-          }
-        },
-        "item_DKCFAV": {
-          "type": "item",
-          "settings": {
-            "title": "Posso portarlo ovunque?",
-            "content": "<p><strong>Assolutamente sì</strong>. Aurenea funziona <strong>senza cavi e ha una batteria</strong> che dura fino a 60 minuti. Sta in tasca o nella <strong>borsa</strong>. Che siate al parco, in <strong>viaggio, dai nonni o al ristorante</strong>, potete intervenire subito quando serve. Non dovrete più annullare.</p>"
-          }
-        },
-        "item_DkLb7B": {
-          "type": "item",
-          "settings": {
-            "title": "È difficile da pulire?",
-            "content": "<p>Orsilane si pulisce in <strong>2 minuti,</strong> semplicemente con <strong>acqua</strong> calda. Niente smontaggio <strong>complicato</strong>, niente pezzi impossibili da raggiungere. Seguite 5 semplici passi nel manuale e<strong> avete finito</strong>. Più tempo per il vostro bambino, meno stress per voi.</p>"
-          }
-        },
-        "item_6WGJqh": {
-          "type": "item",
-          "settings": {
-            "title": "Funziona davvero bene quanto i nebulizzatori grandi da ospedale?",
-            "content": "<p><strong>Sì. Aurenea</strong> utilizza la stessa tecnologia a mesh professionale degli ospedali, ma in formato portatile.<strong> Nebulizza il 99% della soluzion</strong>e in particelle fini che raggiungono i polmoni efficacemente. La differenza? È <strong>silenzioso</strong>, <strong>portatile</strong> e non fa piangere vostro figlio. <strong>Stessa efficacia, zero trauma.</strong></p>"
-          }
-        },
-        "item_aPJErG": {
-          "type": "item",
-          "settings": {
-            "title": "Vale davvero la pena investire in Aurenea invece di comprare uno economico?",
-            "content": "<p>Questa è la domanda che ci fanno molti genitori. Pensateci così: quanto vale la vostra <strong>tranquillità</strong>? Quanto vale vedere vostro figlio respirare serenamente senza lacrime? I nebulizzatori economici <strong>sono rumorosi, ingombranti, spaventano </strong>i bambini e spesso si rompono dopo pochi mesi. Aurenea ha 1 anno di <strong>garanzia</strong>, funziona per anni, e soprattutto: funziona davvero senza stress. È un investimento nella salute e serenità di tutta la famiglia.</p><p></p>"
-          }
-        },
-        "item_yjCRWp": {
-          "type": "item",
-          "settings": {
-            "title": "Come si ricarica Aurenea?",
-            "content": "<p><strong>Semplicissimo</strong>: basta collegare il cavo <strong>USB-C incluso</strong> a qualsiasi presa USB (caricatore telefono, computer, powerbank).</p>"
-          }
-        },
-        "item_mig7pp": {
-          "type": "item",
-          "settings": {
-            "title": "Aurenea ha la garanzia?",
-            "content": "<p>Sì. Aurenea è<strong>conforme alle norme europee</strong>, quindi<strong>coperto da una garanzia di 2 anni</strong>. In caso di problema, il nostro servizio clienti è rapido ed efficiente. È un prodotto pensato per durare, con<strong>assistenza reale</strong>. Acquisti in tutta serenità, senza sorprese.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_4EwCnx",
-        "item_DKCFAV",
-        "item_DkLb7B",
-        "item_6WGJqh",
-        "item_aPJErG",
-        "item_yjCRWp",
-        "item_mig7pp"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
+        "show_icon": false,
+        "title": "Nu rata nicio oportunitate!",
+        "content": "<p>Abonează-te acum și primești 10% reducere la prima comandă!</p>",
+        "button_text": "VREAU ACCES EXCLUSIV",
+        "subtext": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
         "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "1751032672f432be84": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_hFtqwy": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "aurenea-nebukid",
-            "aggregated": false,
-            "data-limit": 6,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_hFtqwy"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_8DphdR": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "button_text_color": ""
       }
     }
   },
   "order": [
-    "custom_liquid_FQTEG9",
-    "rich_text_D9BbFH",
-    "custom_liquid_Tjw38M",
-    "image_with_text_overlay_4i78Uz",
-    "rich_text_JEMPxf",
-    "video_pApHfY",
-    "rich_text_zxUjti",
-    "multi_column_n4mmaJ",
-    "featured_product_D6TXJL",
-    "accordion_content_D9WEDG",
-    "video_rL8wC8",
-    "rich_text_TLVx7R",
-    "custom_liquid_xhMxjJ",
-    "rich_text_gDdzEn",
-    "faq_fL4TNB",
-    "1751032672f432be84",
-    "custom_liquid_8DphdR"
+    "slideshow",
+    "scrolling-text",
+    "rich_text_xFGCyf",
+    "image-with-text-overlay",
+    "press",
+    "faq",
+    "newsletter_EwrzRX"
   ]
 }
