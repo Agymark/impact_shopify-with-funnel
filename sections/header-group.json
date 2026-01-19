@@ -17,28 +17,35 @@
         "message_VKdX8q": {
           "type": "message",
           "settings": {
-            "text": "Offerta autunnale limitata, fino a -50%",
+            "text": "Descoperă stilul de viață EVERWOOD®!",
             "url": ""
           }
         },
         "message_Jqwbyz": {
           "type": "message",
           "settings": {
-            "text": "Pagamento 100% sicuro",
+            "text": "Peste 13.000 de clienți mulțumiți",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Spedizione gratuita",
+            "text": "📦 Livrare gratuită 📦",
+            "url": ""
+          }
+        },
+        "message_XdKXdb": {
+          "type": "message",
+          "settings": {
+            "text": "🎁 Cutie cadou din bambus inclusă",
             "url": ""
           }
         },
         "message_pPbVj6": {
           "type": "message",
           "settings": {
-            "text": "Soddisfatti o rimborsati",
+            "text": "1 comandă = 1 copac plantat 🌳",
             "url": ""
           }
         }
@@ -47,11 +54,12 @@
         "message_VKdX8q",
         "message_Jqwbyz",
         "message",
+        "message_XdKXdb",
         "message_pPbVj6"
       ],
       "settings": {
         "enable_sticky": true,
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
@@ -66,21 +74,22 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/logo_sublimiphy_2.png",
-        "logo_max_width": 260,
+        "logo": "shopify://shop_images/Alcimsor_hozzaadasa_1001_x_400_keppont_1000_x_1000_keppont_2000_x_700_keppont_2000_x_700_keppont.webp",
+        "logo_max_width": 210,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_center_navigation_inline",
-        "show_social_media": false,
-        "show_locale_selector": true,
+        "layout": "drawer",
+        "show_social_media": true,
+        "show_locale_selector": false,
         "show_country_selector": false,
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/Nevtelen_1500_x_300_keppont_2.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
