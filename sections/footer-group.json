@@ -275,7 +275,8 @@
         "newsletter_kxCBKA": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image": "shopify://shop_images/Alcimsor_hozzaadasa_1001_x_400_keppont_1000_x_1000_keppont_2000_x_700_keppont_2000_x_700_keppont.webp",
+            "image_width": 190,
             "heading_size": "h3",
             "title": "Devino și tu membru EverWood®",
             "content": "<p>Ce înseamnă calitatea de membru? Trimitem membrilor noștri oferte exclusive și reduceri speciale. Vei descoperi noile noastre produse înaintea tuturor.</p>"
@@ -315,7 +316,7 @@
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_policy_links": true,
+        "show_policy_links": false,
         "show_country_selector": false,
         "show_country_flag": true,
         "show_country_name": true,
