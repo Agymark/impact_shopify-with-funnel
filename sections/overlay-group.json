@@ -34,7 +34,6 @@
     },
     "cart-drawer": {
       "type": "cart-drawer",
-      "disabled": true,
       "settings": {
         "show_cart_note": true,
         "show_shipping_text": true,
@@ -52,7 +51,7 @@
         "full_width": false,
         "show_article_category": true,
         "search_menu": "",
-        "search_menu_show_title": true
+        "search_menu_show_title": false
       }
     }
   },
