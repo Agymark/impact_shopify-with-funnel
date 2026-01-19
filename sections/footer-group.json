@@ -11,6 +11,167 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "17688367863a9e7e24": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_brFJKB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_brFJKB"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_YaNyfr": {
+      "type": "revealed-image-on-scroll",
+      "name": "Revealed image on scroll",
+      "settings": {
+        "image": "shopify://shop_images/6_b39e1a7e-5df6-4071-8a9f-a0e441dc2f95.png",
+        "mobile_image": "shopify://shop_images/6_98f53919-3a7c-4940-9dae-146cc50d9a75.png",
+        "subheading": "",
+        "title": "Premium. Natural. Lemn.",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "video_fVWfHB": {
+      "type": "video",
+      "blocks": {
+        "play_XMb8zd": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_hed7AC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_XMb8zd",
+        "heading_hed7AC"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=MjBY_GzBY78&t=2s",
+        "poster": "shopify://shop_images/Fedezd_fel_az_EverWood_el_1.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_a4p9Fx": {
+      "type": "faq",
+      "blocks": {
+        "item_rqGRMi": {
+          "type": "item",
+          "settings": {
+            "title": "Din ce material sunt realizate ceasurile și cât de durabile sunt?",
+            "content": "<p>Produsele noastre sunt realizate din materiale premium: abanos, lemn zebra și lemn de santal. Aceste tipuri de lemn sunt apreciate în special pentru durabilitatea lor; abanosul este frecvent utilizat și în construcția viorilor și pianelor. De aceea suntem convinși că orice ceas din lemn EverWood îți va fi un companion de încredere pentru mulți ani!</p>"
+          }
+        },
+        "item_CNGL3M": {
+          "type": "item",
+          "settings": {
+            "title": "Cât de precis este ceasul?",
+            "content": "<p>Toate ceasurile noastre sunt echipate cu mecanisme premium, care oferă o măsurare exactă și fiabilă a timpului. Mecanismele japoneze pot garanta o precizie de aproximativ 99,7%, motiv pentru care sunt atât de populare. Mecanismul este rezistent la apă până la 3 bar, însă părțile din lemn nu sunt recomandate pentru expunere directă la umezeală.<br/><br/>Tipuri de mecanism: Japonez Miyota 2035 Quartz / Epson VX34E / Seiko VD53-3 / Sunon PE936 / Dandong / Automat.</p>"
+          }
+        },
+        "item_ExGipk": {
+          "type": "item",
+          "settings": {
+            "title": "În ce constă unicitatea ceasurilor din lemn și cu inserții din lemn?",
+            "content": "<p>Unicitatea ceasurilor din lemn constă în faptul că fiecare piesă este realizată dintr-o esență diferită de lemn, având astfel un desen natural unic. În plus, ceasurile din lemn sunt mai ușoare și mai confortabile decât cele din plastic sau metal. Ceasurile noastre din lemn sunt realizate manual, ceea ce garantează calitate și precizie ridicată. În timp, majoritatea ceasurilor din lemn capătă o patină naturală, oferind și mai mult caracter și unicitate purtătorului.</p>"
+          }
+        },
+        "item_be4t96": {
+          "type": "item",
+          "settings": {
+            "title": "Cum se poate regla dimensiunea curelei?",
+            "content": "<p>Dimensiunea ceasului din lemn poate fi ajustată prin îndepărtarea unor zale din brățară. Acest lucru poate fi realizat cu ușurință de un bijutier, un ceasornicar sau chiar acasă. Ceasul comandat include un instrument special, cu ajutorul căruia fiecare își poate regla rapid brățara în funcție de dimensiunea încheieturii. Ceasul tău se va potrivi întotdeauna perfect!</p>"
+          }
+        },
+        "item_GEKDnC": {
+          "type": "item",
+          "settings": {
+            "title": "Cum se desfășoară programele de plantare a copacilor?",
+            "content": "<p>Achiziționarea produselor noastre nu este doar o alegere elegantă și ecologică, ci și un sprijin real pentru natură. Pentru fiecare ceas din lemn cumpărat, compania noastră plantează 1 copac în cadrul proiectelor de reîmpădurire, în parteneriat cu organizația internațională One Tree Planted. Copacii sunt plantați în diferite zone ale lumii, iar proiectele contribuie la protejarea habitatelor și a mediului. Astfel, clienții noștri pot lua parte activ la înverzirea planetei și la obținerea unor efecte pozitive pe termen lung asupra mediului.</p>"
+          }
+        },
+        "item_BwW48e": {
+          "type": "item",
+          "settings": {
+            "title": "Câte zile durează livrarea?",
+            "content": "<p>Livrarea este asigurată de serviciul de curierat GLS. Comanda ta este predată curierului în prima zi lucrătoare după plasare, iar livrarea are loc, de regulă, în ziua următoare expedierii. Astfel, termenul mediu de livrare este de 1–3 zile lucrătoare.<br/><br/>Costul standard al livrării este de 990 Ft. Comanda poate fi achitată ramburs sau cu cardul bancar, iar la curier poți plăti atât cu cardul, cât și numerar. Pentru informații suplimentare, ne poți contacta cu încredere la adresa: info@Everwood.Ro</p>"
+          }
+        },
+        "item_fzQnU7": {
+          "type": "item",
+          "settings": {
+            "title": "Cum funcționează rambursarea?",
+            "content": "<p>EverWoods acordă o atenție deosebită controlului calității produselor înainte de a fi puse în vânzare. În cazul în care nu ești mulțumit de produs, beneficiezi de dreptul legal de retragere.<br/><br/>Poți solicita returnarea sau schimbul produsului în termen de 14 zile de la primire, fără a oferi un motiv. După expirarea celor 14 zile, produsul poate fi schimbat, reparat sau rambursat timp de până la 2 ani, în condițiile prevăzute de lege.</p><p><strong>Condiții de returnare:</strong><br/><br/>Produsul trebuie returnat în aceeași stare în care a fost primit, în ambalajul original, nefolosit și netratat cu substanțe chimice. Păstrează factura, deoarece este necesară pentru dovada achiziției. Costul transportului pentru retur este suportat de client.</p><p><strong>Procedura:</strong><br/><br/>Trimite un e-mail la: info@Everwood.RO , atașând factura și datele tale de contact, adresa și motivul returului. După verificarea produsului, te vom informa dacă rambursarea sau schimbul este aprobat.<br/><br/>Suma aprobată va fi returnată în cel mult 14 zile.</p>"
+          }
+        },
+        "item_e9zaQU": {
+          "type": "item",
+          "settings": {
+            "title": "Lemn hipoalergenic, fără substanțe chimice",
+            "content": "<p>În procesul de fabricație EverWood, prioritatea este calitatea premium și utilizarea lemnului 100% natural. Ceasurile noastre sunt realizate din materiale complet hipoalergenice și prietenoase cu pielea. Datorită acestor proprietăți, sunt ideale pentru persoanele cu piele sensibilă sau predispusă la alergii.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rqGRMi",
+        "item_CNGL3M",
+        "item_ExGipk",
+        "item_be4t96",
+        "item_GEKDnC",
+        "item_BwW48e",
+        "item_fzQnU7",
+        "item_e9zaQU"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Întrebări frecvente",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Te ajutăm să alegi! Serviciul nostru de relații cu clienții este disponibil în fiecare zi lucrătoare între orele 10:00–17:00.",
+        "answer_time": "Timp mediu de răspuns: 1–24 ore",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "text_with_icons_yYKxRJ": {
       "type": "text-with-icons",
       "blocks": {
@@ -73,34 +234,102 @@
         "text_color": ""
       }
     },
-    "footer": {
-      "type": "footer",
+    "blog_posts_4KMRJQ": {
+      "type": "blog-posts",
       "blocks": {
-        "text_JgQmjY": {
-          "type": "text",
+        "blog_3hHYJm": {
+          "type": "blog",
           "settings": {
-            "title": "Service client",
-            "content": "<p><strong>Il nostro team è a tua disposizione per qualsiasi domanda:</strong></p><p>Dal lunedì al venerdì: dalle 10:00 alle 20:00 Sabato e domenica: dalle 12:00 alle 17:00</p><p>📧 Indirizzo e-mail: <a href=\"mailto:info@skincareparis.net\"><strong>info@aurenea.com</strong></a></p><p>Ci impegniamo a rispondere entro 12 ore.</p>",
-            "enable_follow_on_shop": false
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
           }
         }
       },
       "block_order": [
-        "text_JgQmjY"
+        "blog_3hHYJm"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Everwood Blog",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_kxCBKA": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Devino și tu membru EverWood®",
+            "content": "<p>Ce înseamnă calitatea de membru? Trimitem membrilor noștri oferte exclusive și reduceri speciale. Vei descoperi noile noastre produse înaintea tuturor.</p>"
+          }
+        },
+        "links_7LwWLL": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text_fFVLgW": {
+          "type": "text",
+          "settings": {
+            "title": "Natural. Premium. Lemn. – EverWood™",
+            "content": "<p>Scopul nostru este să oferim clienților ceasuri de calitate, unice și ecologice. Ceasurile noastre sunt realizate din lemn premium, iar după fiecare vânzare plantăm un copac pentru a contribui la un viitor sustenabil. Recomandăm ceasurile noastre persoanelor care apreciază unicitatea și stilul exclusiv. Alătură-te și tu miilor de clienți EverWood mulțumiți!</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links_Qep7yq": {
+          "type": "links",
+          "settings": {
+            "menu": "main-menu",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_kxCBKA",
+        "links_7LwWLL",
+        "text_fFVLgW",
+        "links_Qep7yq"
       ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_policy_links": false,
-        "show_country_selector": true,
+        "show_policy_links": true,
+        "show_country_selector": false,
         "show_country_flag": true,
         "show_country_name": true,
-        "show_locale_selector": true
+        "show_locale_selector": false
       }
     }
   },
   "order": [
+    "17688367863a9e7e24",
+    "revealed_image_on_scroll_YaNyfr",
+    "video_fVWfHB",
+    "faq_a4p9Fx",
     "text_with_icons_yYKxRJ",
+    "blog_posts_4KMRJQ",
     "footer"
   ]
 }

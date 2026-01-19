@@ -599,11 +599,11 @@
         "headings_DN8KCy": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "",
-            "heading_5": "",
+            "heading_1": "Diametru",
+            "heading_2": "Greutate",
+            "heading_3": "Tip de lemn utilizat",
+            "heading_4": "Tip închizătoare",
+            "heading_5": "Sticlă",
             "heading_6": "",
             "heading_7": "",
             "heading_8": "",
@@ -625,11 +625,11 @@
           "type": "values",
           "settings": {
             "product": "everwood™-sailor-automata-fa-ferfi-blue-black",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
+            "value_1": "<p>43 mm</p>",
+            "value_2": "<p>168 g</p>",
+            "value_3": "<p>Lemn de tigru</p>",
+            "value_4": "<p>Închizătoare tip fluture</p>",
+            "value_5": "<p>Sticlă minerală</p>",
             "value_6": "",
             "value_7": "",
             "value_8": "",
@@ -653,11 +653,11 @@
           "type": "values",
           "settings": {
             "product": "everwood™-dark-ranger-kronograf-ferfi",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
+            "value_1": "<p>45 mm</p>",
+            "value_2": "<p>193 g</p>",
+            "value_3": "<p>Abanos</p>",
+            "value_4": "<p>Închizătoare tip fluture</p>",
+            "value_5": "<p>Sticlă minerală</p>",
             "value_6": "",
             "value_7": "",
             "value_8": "",
@@ -687,15 +687,15 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "",
-        "content": "",
+        "title": "Îți este greu să alegi? Te ajutăm!",
+        "content": "<p>Am comparat cele mai populare 2 modele automate pentru a-ți ușura alegerea!</p>",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "max_rows": 5,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
+        "view_all_text": "Vezi tot",
+        "view_less_text": "Vezi mai puțin",
+        "view_product": "Vezi produsul!",
         "show_product_info": true,
         "show_product_image": true,
         "show_product_swatch": true,
@@ -710,6 +710,68 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
+      }
+    },
+    "media_grid_r9VMHh": {
+      "type": "media-grid",
+      "blocks": {
+        "image_wQwkU3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fa_800_x_1200_keppont_4.png",
+            "title": "Ceasuri din lemn și cu inserții din lemn",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AUEz6t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fa_800_x_1200_keppont_2.png",
+            "title": "Colecție pentru femei",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wQwkU3",
+        "image_AUEz6t"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     }
   },
@@ -727,6 +789,7 @@
     "media_grid_yHA9mi",
     "1768827666845ee948",
     "hot_spots_qzmC3w",
-    "comparison_table_476jdn"
+    "comparison_table_476jdn",
+    "media_grid_r9VMHh"
   ]
 }
