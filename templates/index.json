@@ -9,20 +9,295 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "image_with_text_overlay_Mh8JDy": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "slide-1": {
+        "subheading_JUY9UC": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_BL7mKD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_c8hmyf": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JUY9UC",
+        "heading_BL7mKD",
+        "richtext_c8hmyf"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_VyU4LM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_pg6i4z": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/shampoo-header.webp",
-            "mobile_image": "shopify://shop_images/pexels-karolina-grabowska-5241037_1.webp",
-            "content_max_width": 1200,
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_C9ELid": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_pg6i4z",
+        "image_C9ELid"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Premium. Natural. Lemn. | Alătură-te celor peste 13.000 de clienți!",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "linear-gradient(310deg, rgba(7, 68, 0, 1) 15%, rgba(17, 170, 0, 1) 51.799%, rgba(17, 170, 0, 1) 89%)"
+      }
+    },
+    "17688274172f9e8f62": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_Rb8a8A": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_Rb8a8A"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_68TJR7": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "colecția-de-quartz-pentru-barbați",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 21,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Cele mai populare modele",
+        "content": "<p><strong>Peste 2600 de recenzii | 13.000+ clienți mulțumiți</strong></p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "impact_text_eRJnkg": {
+      "type": "impact-text",
+      "blocks": {
+        "item_7MRDtj": {
+          "type": "item",
+          "settings": {
+            "title": "13.036+",
+            "subheading": "Clienți EVERWOOD® mulțumiți",
+            "content": "<p>Descoperă unul dintre cele mai apreciate branduri de ceasuri din lemn din România! Ceasurile noastre sunt realizate parțial manual, din esențe de lemn cu duritate ridicată.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 3.4
+          }
+        },
+        "item_kLDmbL": {
+          "type": "item",
+          "settings": {
+            "title": "2.600+",
+            "subheading": "Recenzii ale clienților",
+            "content": "<p>„Ceasuri superbe! Execuție atentă și precisă! Livrare rapidă și exactă! Recomand cu toată încrederea, din toate punctele de vedere!!” – L. Péter”</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_eUKVr9": {
+          "type": "item",
+          "settings": {
+            "title": "4.88/5",
+            "subheading": "Rata noastră de satisfacție",
+            "content": "<p>4.88/5⭐ pe baza a peste 2.600 de recenzii.<br/>Mulțumim din suflet tuturor clienților pentru cuvintele frumoase! Alătură-te și tu EVERWOOD!”</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_7MRDtj",
+        "item_kLDmbL",
+        "item_eUKVr9"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "text_alignment": "start",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(181deg, rgba(0, 100, 40, 1) 15%, rgba(0, 163, 65, 0.2) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured_collection_UNgMKV": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "colecția-de-quartz-pentru-barbați",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 21,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Quartz pentru bărbați",
+        "content": "<p><strong>Mecanism quartz japonez Miyota. Inserții din lemn / 100% Lemn</strong></p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "slideshow_FT7rGy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_JydVXB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1500_x_1200_keppont_1.jpg",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Filtrul care transformă apa robinetului în apă de izvor – sau banii înapoi!",
-            "title": "Gata cu Pielea Uscată și Păru!",
-            "heading_tag": "h0",
+            "subheading": "Premium, natural, accesibil. Pentru fiecare ceas achiziționat plantăm 1 copac împreună cu organizația internațională OneTreePlanted. Descoperă și tu cele mai populare ceasuri din lemn din România!",
+            "title": "În drum spre peste 20.000 de copaci plantați",
+            "heading_tag": "h4",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_y9Cj4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1500_x_1200_keppont_1_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Compania noastră plantează copaci la nivel global, în parteneriat cu organizația internațională OneTreePlanted. Pe baza unor evaluări preliminare sunt selectate zonele potrivite, iar proiecte de reîmpădurire sunt desfășurate simultan în peste 20 de țări și pe mai multe continente. OneTreePlanted.org",
+            "title": "Mii de copaci plantați în întreaga lume",
+            "heading_tag": "h4",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -36,275 +311,422 @@
         }
       },
       "block_order": [
-        "slide-1"
+        "image_JydVXB",
+        "image_y9Cj4b"
       ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
+        "show_initial_transition": false,
         "image_size": "auto",
-        "controls_type": "numbers",
+        "controls_type": "dots",
         "transition_type": "fade_with_text",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
+    "featured_collection_i4zQV8": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
+        "collection": "ranger",
+        "products": [],
         "full_width": true,
-        "text": "99% clor eliminat - 0,001 mm filtrare - 92% mai puțină încrețire",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "rich_text_xFGCyf": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_beh4zU": {
-          "type": "subheading",
-          "settings": {
-            "text": "Revoluționează-ți experiența la duș!"
-          }
-        },
-        "heading_XjtBfc": {
-          "type": "heading",
-          "settings": {
-            "text": "CALITATE SUPERIOARĂ",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_6y8XLR": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Bun venit la Filterbaby – unde fiecare picătură de apă înseamnă piele catifelată și păr strălucitor. Cu filtrele noastre inovatoare, aducem puritatea apei de izvor în casa ta.</p><p><strong>De ce să ne alegi?</strong><br/>✔ 99% eliminare clor și calcar<br/>✔ Instalare în 3 minute – fără expert<br/>✔ Peste 50.000 clienți mulțumiți</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_beh4zU",
-        "heading_XjtBfc",
-        "richtext_6y8XLR"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Bun venit în lumea apei pure!"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "FILTRU DE DUȘ REVOLUȚIONAR",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Aquafiltr Pro transformă apa robinetului într-un izvor de hidratare. Spune adio pielii uscate și părului lipsit de viață.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify://shop_images/pexels-timmossholder-1049687.jpg",
-        "mobile_image": "shopify://shop_images/pexels-timmossholder-1049687.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Ioan***",
-            "content": "Sincer să fiu, Filtrul chiar oprește impuritățile – se vede în cartuș după câteva săptămâni. Sunt mulțumit pe deplin.",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Pop ***",
-            "content": "Nu credema că un simplu filtru poate face o așa diferență. Pielea nu mai e uscată după duș. O să mai cumpăr unul pentru părinți.",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_rtzh3B": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Violeta ***",
-            "content": "Pentru mine, Folosesc Aquafiltr de 2 luni și se simte o mare diferență la duș. Îl voi recomanda și altora.",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1",
-        "quote_rtzh3B"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 21,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Automatic pentru bărbați",
+        "content": "<p><strong>Mecanism automat japonez Miyota. Inserții din lemn / 100% Lemn.</strong></p>",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
-    "faq": {
-      "type": "faq",
+    "featured_collection_3MLywq": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "colecția-pentru-femei",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 21,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Colecție pentru femei",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_grid_yHA9mi": {
+      "type": "media-grid",
       "blocks": {
-        "item_hGPgLh": {
-          "type": "item",
+        "image_3khn7G": {
+          "type": "image",
           "settings": {
-            "title": "Protejează și mașina de spălat? (Și alte aparate?)",
-            "content": "<p><br/><em>Deși Filterbaby este conceput special pentru duș, apa filtrată ajută la reducerea calcarului în TOATE aparatele casei!<br/><br/></em><strong>Reducere ~60% a depunerilor</strong> <em>TOATE aparatele</em><br/><br/></p>"
+            "image": "shopify://shop_images/4.gif",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "item_BJegKj": {
-          "type": "item",
+        "image_FRrLEM": {
+          "type": "image",
           "settings": {
-            "title": "Se potrivește capul de duș filtratAquafiltr Pro la dușul meu existent?",
-            "content": "<p>Da, capul de duș filtrat Aquafiltr Pro are un filtru integrat și este proiectat să fie compatibil cu majoritatea furtunurilor de duș și fitingurilor standard.</p>"
+            "image": "shopify://shop_images/10_6aae3f00-a673-4336-9085-c3ccf0bf87dc.png",
+            "title": "AUTOMAT",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-start-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "item_yCzmPt": {
-          "type": "item",
+        "image_h9kW7c": {
+          "type": "image",
           "settings": {
-            "title": "Cât de ușor este de instalat?",
-            "content": "<p>Este super ușor – o poți face singur, nu ai nevoie de instalator. Tot ce îți trebuie sunt 3 pași simpli:</p><ol><li>Demontați capul de duș original.</li><li>Înșurubați filtrul de duș Filterbaby Pro Series.</li><li>Înșurubați capul de duș original pe filtrul de duș Filterbaby Pro Series.</li></ol>"
+            "image": "shopify://shop_images/14_01fe0f02-c5fc-48ff-8061-546e27a0ceea.png",
+            "title": "Pereche 1+1",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "item_9tEAMH": {
-          "type": "item",
+        "image_zjHKH8": {
+          "type": "image",
           "settings": {
-            "title": "Ce rezultate mă pot aștepta de la utilizarea capului de duș filtrat Aquafiltr Pro?",
-            "content": "<p><br/>Vă puteți aștepta la îmbunătățiri semnificative ale pielii și părului, inclusiv reducerea erupțiilor cutanate, roșeții și iritațiilor; o piele mai moale, mai hidratată și un păr mai sănătos și mai strălucitor. Ajută pielea uscată, eczematoasă, predispusă la acnee și rozacee, și îmbunătățește sănătatea respiratorie prin eliminarea vaporilor de clor.<br/><br/></p>"
-          }
-        },
-        "item_4MqF7H": {
-          "type": "item",
-          "settings": {
-            "title": "Ce impurități elimină filtrul?",
-            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
-          }
-        },
-        "item_Q9rzTC": {
-          "type": "item",
-          "settings": {
-            "title": "Înmuierează apa capul de duș filtrat?",
-            "content": "<p><br/>Aquafiltr Pro elimină până la 99% din clor, cloramină și plumb. De asemenea, reduce metalele grele și alte substanțe chimice dăunătoare.<br/><br/><br/></p>"
-          }
-        },
-        "item_a6JTwc": {
-          "type": "item",
-          "settings": {
-            "title": "Când schimb filtrul?",
-            "content": "<p><br/>Majoritatea filtrelor de duș trebuie schimbate la fiecare 3 luni sau după filtrarea a aproximativ 10.000 de litri de apă.<br/><br/></p>"
+            "image": "shopify://shop_images/APAK-NAPI_LEARAZAS_1660_x_650_keppont_1660_x_800_keppont_2.png",
+            "title": "Colecția LEAF",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "item_hGPgLh",
-        "item_BJegKj",
-        "item_yCzmPt",
-        "item_9tEAMH",
-        "item_4MqF7H",
-        "item_Q9rzTC",
-        "item_a6JTwc"
+        "image_3khn7G",
+        "image_FRrLEM",
+        "image_h9kW7c",
+        "image_zjHKH8"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "1768827666845ee948": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_r7iEha": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_r7iEha"
       ],
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "Intrebari frecvente",
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "hot_spots_qzmC3w": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_NhABhk": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 36,
+            "vertical_position": 49,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 37,
+            "icon_width": 32,
+            "title": "Inserție din lemn de abanos",
+            "content": "<p>Ceasurile noastre sunt realizate din lemn natural tropical, cu duritate ridicată. Pentru a asigura o durată de viață îndelungată, diferitele tipuri de lemn trec printr-un proces special de stabilizare. În timpul acestui proces, capacitatea de absorbție a lemnului este redusă, crescând astfel rezistența și durabilitatea acestuia.</p>"
+          }
+        },
+        "item_wdyQhC": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 59,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 57,
+            "vertical_position_mobile": 16,
+            "icon_width": 32,
+            "title": "Sticlă cristalină Hardlex",
+            "content": "<p>Ceasurile noastre sunt echipate cu sticlă premium, pentru a rezista cât mai bine la factorii externi.</p>"
+          }
+        },
+        "item_TcUdbK": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 82,
+            "vertical_position": 81,
+            "horizontal_position_mobile": 55,
+            "vertical_position_mobile": 71,
+            "icon_width": 32,
+            "title": "Oțel inoxidabil",
+            "content": "<p>Carcasă și brățară din oțel inoxidabil. Pe lângă detaliile naturale și unice din lemn, fiabilitatea este criteriul principal. Datorită închizătorii și componentelor suplimentare din oțel inoxidabil, ceasurile noastre sunt piese durabile, create să reziste în timp.”</p>"
+          }
+        },
+        "item_dCGpCY": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 49,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 52,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Mecanism automat",
+            "content": "<p>Ceasul automat se încarcă singur, datorită mișcărilor zilnice ale purtătorului. Energia generată se acumulează în mecanismul de acționare, punând în mișcare rotorul și alte componente esențiale.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NhABhk",
+        "item_wdyQhC",
+        "item_TcUdbK",
+        "item_dCGpCY"
+      ],
+      "name": "Hot spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/Nevtelen_2500_x_1200_keppont.png",
+        "mobile_image": "shopify://shop_images/Nevtelen_terv_24.png",
+        "title": "",
         "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "Serviciul nostru de asistență pentru clienți este disponibil de luni până vineri, între orele 8:00 și 20:30.",
-        "answer_time": "Timp mediu de răspuns: 4-6 ore",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "comparison_table_476jdn": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_DN8KCy": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Heading 1",
+            "heading_2": "Heading 2",
+            "heading_3": "Heading 3",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_TfHYG9": {
+          "type": "values",
+          "settings": {
+            "product": "everwood™-sailor-automata-fa-ferfi-blue-black",
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_mTrqyL": {
+          "type": "values",
+          "settings": {
+            "product": "everwood™-dark-ranger-kronograf-ferfi",
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_DN8KCy",
+        "values_TfHYG9",
+        "values_mTrqyL"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "newsletter_EwrzRX": {
-      "type": "newsletter",
-      "settings": {
-        "full_width": true,
-        "show_icon": false,
-        "title": "Nu rata nicio oportunitate!",
-        "content": "<p>Abonează-te acum și primești 10% reducere la prima comandă!</p>",
-        "button_text": "VREAU ACCES EXCLUSIV",
-        "subtext": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
       }
     }
   },
   "order": [
-    "slideshow",
+    "image_with_text_overlay_Mh8JDy",
+    "media_grid_VyU4LM",
     "scrolling-text",
-    "rich_text_xFGCyf",
-    "image-with-text-overlay",
-    "press",
-    "faq",
-    "newsletter_EwrzRX"
+    "17688274172f9e8f62",
+    "featured_collection_68TJR7",
+    "impact_text_eRJnkg",
+    "featured_collection_UNgMKV",
+    "slideshow_FT7rGy",
+    "featured_collection_i4zQV8",
+    "featured_collection_3MLywq",
+    "media_grid_yHA9mi",
+    "1768827666845ee948",
+    "hot_spots_qzmC3w",
+    "comparison_table_476jdn"
   ]
 }
