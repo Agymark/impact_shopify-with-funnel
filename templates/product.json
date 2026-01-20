@@ -680,6 +680,95 @@
         "text_color": ""
       }
     },
+    "slideshow_TLjpK9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9aUjNi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1500_x_1200_keppont_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Premium, natural, accesibil. Pentru fiecare ceas achiziționat plantăm 1 copac împreună cu organizația internațională OneTreePlanted. Descoperă și tu cele mai populare ceasuri din lemn din România!",
+            "title": "În drum spre peste 20.000 de copaci plantați",
+            "heading_tag": "h4",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_tWMJmb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1500_x_1200_keppont_1_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Compania noastră plantează copaci la nivel global, în parteneriat cu organizația internațională OneTreePlanted. Pe baza unor evaluări preliminare sunt selectate zonele potrivite, iar proiecte de reîmpădurire sunt desfășurate simultan în peste 20 de țări și pe mai multe continente. OneTreePlanted.org",
+            "title": "Mii de copaci plantați în întreaga lume",
+            "heading_tag": "h4",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9aUjNi",
+        "image_tWMJmb"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "176891160062627d0d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_tHedmW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_tHedmW"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -687,11 +776,11 @@
         "products": [],
         "full_width": true,
         "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Alte produse",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -702,15 +791,36 @@
         "product_card_text_color": ""
       }
     },
-    "17510116181812636e": {
-      "type": "apps",
+    "video_6VD73R": {
+      "type": "video",
+      "blocks": {
+        "play_fwDkMN": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_3EYqBp": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_fwDkMN",
+        "heading_3EYqBp"
+      ],
+      "name": "Video",
       "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=XsEIWlkp8kc",
+        "poster": "shopify://shop_images/Kepernyokep_2024-08-29_192348.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
@@ -730,7 +840,9 @@
     "rich_text_QaWNFh",
     "image_with_text_overlay_NyqA7f",
     "rich_text_YArfQT",
+    "slideshow_TLjpK9",
+    "176891160062627d0d",
     "related-products",
-    "17510116181812636e"
+    "video_6VD73R"
   ]
 }
