@@ -308,6 +308,378 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_priY9i": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_DUGDeP": {
+          "type": "heading",
+          "settings": {
+            "text": "Premium. Natural. Lemn.",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_8Pjbwp": {
+          "type": "heading",
+          "settings": {
+            "text": "Peste 13.000 de clienți ne-au ales – îți mulțumim pentru încredere!",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_gPkLRq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Descoperă unul dintre cele mai îndrăgite branduri de ceasuri din lemn din țară! 4.88/5 pe baza a peste 2.600 de recenzii <br/><br/><em><strong>„Ceasul este o adevărată minune, oricine poate ar trebui să cumpere unul! Cu siguranță nu vei regreta. Perfect, elegant, o piesă pentru totdeauna :)”</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DUGDeP",
+        "heading_8Pjbwp",
+        "richtext_gPkLRq"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/madeira_1_87ee27f6-6ca7-48c3-8a48-4e53a861b363.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25
+      }
+    },
+    "rich_text_RQwqtJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n96EXn": {
+          "type": "heading",
+          "settings": {
+            "text": "Ceas din lemn inspirat de natură",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ztnLPa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Ieși și tu în evidență cu ceasurile noastre premium, cu inserții din lemn</strong>! <br/><br/><strong>Misiunea noastră este protejarea mediului, susținută de fiecare proprietar</strong> EverWood™. Ceasurile noastre sunt realizate parțial manual din lemn natural de abanos, lemn de santal și lemn zebra.<br/><br/>Tipuri de lemn utilizate: lemn de trandafir, abanos, lemn zebra, lemn de santal și nuc – în funcție de model.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n96EXn",
+        "richtext_ztnLPa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_NzVr8j": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/onetreeplanted_video_8cd2f566-3306-4f6e-b1c9-0f440293c921.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_xTYaU6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7zTHfE": {
+          "type": "heading",
+          "settings": {
+            "text": "Materiale premium la un preț accesibil",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WzrCgb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Oțelul inoxidabil</strong> de înaltă calitate, combinat cu <strong>lemnul</strong> natural, oferă ceasurilor noastre un caracter <strong>cu adevărat unic.</strong> Această combinație <strong>asigură și durabilitatea</strong> lor, spre deosebire de ceasurile realizate integral din lemn.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7zTHfE",
+        "richtext_WzrCgb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_text_rWgtRF": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Premium. Natural. Lemn.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "image_with_text_overlay_xkmkNB": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/image_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_Rx8bXJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Qqf8wc": {
+          "type": "heading",
+          "settings": {
+            "text": "De ce să alegi și tu un ceas premium din lemn?",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_BYpWjh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Unicitatea <strong>ceasurilor din lemn constă</strong> în faptul că<strong> fiecare piesă este realizată parțial manual din diferite esențe</strong> de lemn, având astfel un desen natural unic. În plus, pe baza feedback-ului primit, ceasurile din lemn <strong>sunt mai ușoare</strong> și <strong>mai confortabile</strong> decât ceasurile tradiționale din plastic sau metal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qqf8wc",
+        "richtext_BYpWjh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_i3y83D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AMD6mF": {
+          "type": "heading",
+          "settings": {
+            "text": "Inserții din lemn realizate manual",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_9LNWqG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Elementele din lemn ale ceasurilor noastre sunt realizate parțial manual, ceea ce garantează un nivel ridicat de calitate și precizie. În timp, majoritatea ceasurilor din lemn capătă o patină naturală, oferind și mai multă unicitate și caracter purtătorului.</p>"
+          }
+        },
+        "richtext_yNJKnV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>Tip sticlă: Sticlă cristalină Hardlex securizată</li><li>Brățară din oțel inoxidabil cu închizătoare dublă</li><li>Mecanism rezistent la stropire (3 bar)</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AMD6mF",
+        "richtext_9LNWqG",
+        "richtext_yNJKnV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_VEyfpV": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ezgif.com-crop_1024x1024_93236ffd-4f27-42f4-8dba-9be1b555eaf7.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_jBjrc4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_33Bkza": {
+          "type": "heading",
+          "settings": {
+            "text": "MEGBÍZHATÓ SZERKEZET",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VbNXHw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fa <strong>karóráinknál</strong> az elsődleges szempont a <strong>tökéletes</strong> <strong>minőség</strong> és <strong>megbízhatóság</strong> volt. Éppen ezért, minden órában prémium szerkezet biztosítja a pontos időt. </p><ul><li><strong>Japán Miyota 2035 Quartz / Miyota 1L40 / Epson VX34E / Seiko VD53-3 / Sunon PE936 / Dandong SL4801 / Miyota JS25-3 / Seiko VD53-3 </strong></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_33Bkza",
+        "richtext_VbNXHw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_zbEU4k": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/4.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_QaWNFh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8qti4W": {
+          "type": "heading",
+          "settings": {
+            "text": "AJÁNDÉK ÁLLÍTÓ TŰ MINDEN EVERWOOD ÓRÁHOZ!",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qkjN68": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A dupla csatos <strong>rozsdamentes acél</strong> szíjat pár perc alatt mindenki a saját csuklójára méretezheti az <strong>ajándék tű</strong> segítségével. Nem kell óráshoz fordulnod, otthon pár perc alatt beállítható a szíj.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8qti4W",
+        "richtext_qkjN68"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_NyqA7f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Nevtelen_terv_26.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_YArfQT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eG9KML": {
+          "type": "heading",
+          "settings": {
+            "text": "EVERWOOD GARANCIA",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CTNwJj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Biztosak</strong> vagyunk benne, hogy <strong>elégedett leszel</strong> a termékünkkel, éppen ezért <strong>elégedettségi garanciát </strong>vállalunk minden egyes termékre, melyet 14 napig <strong>indoklás nélkül </strong>visszaveszünk vagy cseréljük díjmentesen. Ezen felül <strong>óráinkra  24-36 hónap teljes körű garanciát vállalunk.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eG9KML",
+        "richtext_CTNwJj"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -344,6 +716,20 @@
   },
   "order": [
     "main",
+    "image_with_text_overlay_priY9i",
+    "rich_text_RQwqtJ",
+    "image_with_text_overlay_NzVr8j",
+    "rich_text_xTYaU6",
+    "scrolling_text_rWgtRF",
+    "image_with_text_overlay_xkmkNB",
+    "rich_text_Rx8bXJ",
+    "rich_text_i3y83D",
+    "image_with_text_overlay_VEyfpV",
+    "rich_text_jBjrc4",
+    "image_with_text_overlay_zbEU4k",
+    "rich_text_QaWNFh",
+    "image_with_text_overlay_NyqA7f",
+    "rich_text_YArfQT",
     "related-products",
     "17510116181812636e"
   ]
