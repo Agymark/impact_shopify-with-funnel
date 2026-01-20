@@ -62,9 +62,9 @@
         "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#324b51",
+        "background": "#46a700",
         "background_gradient": "",
         "text_color": "#ffffff"
       }

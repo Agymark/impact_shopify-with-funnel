@@ -22,6 +22,10 @@
             "heading_tag": "h2"
           }
         },
+        "judge_me_reviews_preview_badge_rREnz8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -34,6 +38,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": false
           }
@@ -46,12 +51,50 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
+        "image_Y7QLBg": {
+          "type": "image",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
+            "image": "shopify://shop_images/RENDELJ_MOST_AZ_EV_5.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "inventory_cEVCqT": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 8
+          }
+        },
+        "text_ChQRCF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>📦 <strong>Acum cu livrare gratuită la domiciliu!</strong></p>"
+          }
+        },
+        "text_k4MCm7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🎄 Un <strong>cadou unic</strong>, care vine din inimă. Cumpără <strong>în limita stocului disponibil!</strong></p>"
+          }
+        },
+        "text_QNwi3z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🎁 <strong>Nu lăsa pe ultima clipă! Ceasurile noastre populare se epuizează rapid.</strong></p>"
+          }
+        },
+        "separator_TTQyU7": {
+          "type": "separator",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "liquid_H63rYQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>TrustScore</title>\n<style>\n.trustscore-container {\ndisplay: flex;\nalign-items: center;\nbackground: white;\nborder-radius: 20px;\npadding: 4px 12px;\nbox-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\nfont-family: Arial, sans-serif;\nfont-size: 14px;\nfont-weight: 500;\ncolor: #333;\nmax-width: fit-content;\n}\n.trustscore-stars {\ndisplay: flex;\ngap: 2px;\nmargin-right: 6px;\n}\n.star-box {\nbackground: #00A650;\nwidth: 18px;\nheight: 18px;\ndisplay: flex;\nalign-items: center;\njustify-content: center;\nborder-radius: 4px;\n}\n.star-icon{\nwidth: 12px;\nheight: 12px;\nfill: white;\n}\n.trustscore-text {\nwhite-space: nowrap;\n}\n</style>\n</head>\n<body>\n<div class=\"trustscore-container\">\n<div class=\"trustscore-stars\">\n<div class=\"star-box\">\n<svg class=\"star-icon\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2L14.09 8.26H20.94L15.47 12.97L17.56 19.23L12 15.52L6.44 19.23L8.53 12.97L3.06 8.26H9.91L12 2Z\"/> </svg>\n</div>\n<div class=\"star-box\">\n<svg class=\"star-icon\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2L14.09 8.26H20.94L15.47 12.97L17.56 19.23L12 15.52L6.44 19.23L8.53 12.97L3.06 8.26H9.91L12 2Z\"/> </svg>\n</div>\n<div class=\"star-box\">\n<svg class=\"star-icon\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2L14.09 8.26H20.94L15.47 12.97L17.56 19.23L12 15.52L6.44 19.23L8.53 12.97L3.06 8.26H9.91L12 2Z\"/> </svg>\n</div>\n<div class=\"star-box\">\n<svg class=\"star-icon\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2L14.09 8.26H20.94L15.47 12.97L17.56 19.23L12 15.52L6.44 19.23L8.53 12.97L3.06 8.26H9.91L12 2Z\"/> </svg>\n</div>\n<div class=\"star-box\">\n<svg class=\"star-icon\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2L14.09 8.26H20.94L15.47 12.97L17.56 19.23L12 15.52L6.44 19.23L8.53 12.97L3.06 8.26H9.91L12 2Z\"/> </svg>\n</div> </div>\n<p class=\"trustscore-text\">\n<strong> 4.88</strong> | <span> Pe baza a 2.600+ recenzii</span>\n</p>\n</div>\n</body> </html>"
           }
         },
         "variant_picker": {
@@ -65,10 +108,6 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -79,20 +118,177 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "judge_me_reviews_review_widget_FdC7KK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        },
+        "offer_yhqNXX": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-tree",
+            "icon_width": 20,
+            "title": "1 Comanda = 1 Copac plantat",
+            "content": "<p>Pentru fiecare achiziție plantăm 1 copac împreună cu organizația non-profit OneTreePlanted.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "separator_PnLiwk": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_zgHcJQ": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-box",
+            "icon_width": 20,
+            "title": "Livrare gratuită!",
+            "content": "<p>Promoția este valabilă în limita stocului disponibil sau până la retragere. Pentru livrările internaționale: 2.990 Ft.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "offer_pkctUe": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-gift",
+            "icon_width": 20,
+            "title": "Cutie cadou din bambus",
+            "content": "<p>Fiecare ceas este livrat într-o cutie cadou premium din bambus.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "associated_products_di8JQz": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Alți clienți au cumpărat împreună:",
+            "stack_products": true,
+            "products_count": 9,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "collapsible_text_bWLUz6": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Ai o întrebare? Contactează-ne cu încredere!",
+            "content": "<p><br/>Te ajutăm să alegi! Serviciul nostru de relații cu clienții este disponibil în fiecare zi lucrătoare între orele 9:00–17:00.<br/><br/>Telefon: +40703684433<br/><br/>E-mail: </p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_Up4eJj": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Specificații",
+            "content": "<p>Mecanism: Japonez Miyota 2035 Quartz / Epson VX34E / Seiko VD53-3 / Sunon PE936 / Dandong / Automat<br/><br/>Tip sticlă: Sticlă cristalină Hardlex securizată<br/><br/>Materiale: Cataramă din oțel inoxidabil, lemn zebra, abanos, lemn de santal<br/><br/>Unele modele sunt realizate pe baza unor concepte de design locale, iar producția este efectuată de partenerii noștri internaționali, în condiții de calitate controlată.<br/><br/>Fiecare ceas din lemn este livrat în ambalaj natural din bambus.<br/><br/>Un instrument special de ajustare este inclus la fiecare ceas EverWood achiziționat.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_NJH3bf": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Mărime și ajustare",
+            "content": "<p>Dimensiunea ceasului din lemn poate fi ajustată prin îndepărtarea unor zale din brățară. Ceasul comandat include un instrument de ajustare, cu ajutorul căruia fiecare își poate regla cu ușurință brățara în funcție de dimensiunea încheieturii. Ceasul tău se va potrivi întotdeauna perfect!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_XTGW6x": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Livrare și garanție",
+            "content": "<p>Livrarea este asigurată de serviciul de curierat GLS. Comanda este predată curierului în prima zi lucrătoare după plasare, iar livrarea are loc, de regulă, în ziua următoare expedierii. Astfel, termenul mediu de livrare este de 1–3 zile lucrătoare.<br/><br/>Toate ceasurile din lemn beneficiază de o garanție de 24–36 de luni și de posibilitatea de service complet în România.<br/><br/>EverWoods acordă o atenție deosebită controlului strict al calității produselor înainte de a fi puse în vânzare în magazinul online, iar în cazul în care clientul nu este mulțumit, acesta beneficiază de dreptul legal de retragere, conform legislației în vigoare.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_B8D4A4": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "1 achiziție = 1 copac plantat",
+            "content": "<p>Achiziționarea produselor noastre nu este doar o alegere elegantă și ecologică, ci și un sprijin real pentru natură. Pentru fiecare ceas din lemn cumpărat, compania noastră plantează 1 copac în cadrul proiectelor de plantare, în parteneriat cu organizația internațională One Tree Planted. Copacii sunt plantați în întreaga lume, contribuind la protejarea habitatelor și a mediului. Astfel, clienții noștri pot lua parte activ la înverzirea planetei și la obținerea unor efecte pozitive pe termen lung asupra mediului.</p>",
+            "page": ""
+          }
+        },
+        "image_iadyRt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1500x300keppont_1.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_DUQRJ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nevtelen_1080x700keppont_1080x500keppont_1000x350keppont_1000x550keppont_1000x1000keppont_1.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "judge_me_reviews_preview_badge_rREnz8",
         "badges",
         "price",
         "rating",
         "payment_terms",
         "separator",
-        "description",
-        "variant_picker",
+        "image_Y7QLBg",
+        "inventory_cEVCqT",
+        "text_ChQRCF",
+        "text_k4MCm7",
+        "text_QNwi3z",
+        "separator_TTQyU7",
         "quantity_selector",
-        "buy_buttons"
+        "liquid_H63rYQ",
+        "variant_picker",
+        "buy_buttons",
+        "judge_me_reviews_review_widget_FdC7KK",
+        "offer_yhqNXX",
+        "separator_PnLiwk",
+        "offer_zgHcJQ",
+        "offer_pkctUe",
+        "associated_products_di8JQz",
+        "collapsible_text_bWLUz6",
+        "collapsible_text_Up4eJj",
+        "collapsible_text_NJH3bf",
+        "collapsible_text_XTGW6x",
+        "collapsible_text_B8D4A4",
+        "image_iadyRt",
+        "image_DUQRJ6",
+        "description"
       ],
       "settings": {
         "full_width": true,
@@ -136,22 +332,6 @@
     },
     "17510116181812636e": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_GazxyG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 16,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_GazxyG"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
