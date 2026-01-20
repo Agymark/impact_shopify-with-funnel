@@ -498,6 +498,22 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_EjUeUq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Nevtelen_1080x700keppont_1080x500keppont_1000x350keppont_1000x550keppont.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_i3y83D": {
       "type": "rich-text",
       "blocks": {
@@ -560,7 +576,7 @@
         "heading_33Bkza": {
           "type": "heading",
           "settings": {
-            "text": "MEGBÍZHATÓ SZERKEZET",
+            "text": "Mecanism fiabil",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -569,7 +585,7 @@
         "richtext_VbNXHw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fa <strong>karóráinknál</strong> az elsődleges szempont a <strong>tökéletes</strong> <strong>minőség</strong> és <strong>megbízhatóság</strong> volt. Éppen ezért, minden órában prémium szerkezet biztosítja a pontos időt. </p><ul><li><strong>Japán Miyota 2035 Quartz / Miyota 1L40 / Epson VX34E / Seiko VD53-3 / Sunon PE936 / Dandong SL4801 / Miyota JS25-3 / Seiko VD53-3 </strong></li></ul>"
+            "content": "<p>În cazul ceasurilor noastre din lemn, criteriul principal a fost calitatea perfectă și fiabilitatea. De aceea, fiecare ceas este echipat cu un mecanism premium, care asigură o măsurare precisă a timpului.<br/></p><ul><li><strong>Japonez Miyota 2035 Quartz / Miyota 1L40 / Epson VX34E / Seiko VD53-3 / Sunon PE936 / Dandong SL4801 / Miyota JS25-3 / Seiko VD53-3</strong><br/><br/></li></ul>"
           }
         }
       },
@@ -607,7 +623,7 @@
         "heading_8qti4W": {
           "type": "heading",
           "settings": {
-            "text": "AJÁNDÉK ÁLLÍTÓ TŰ MINDEN EVERWOOD ÓRÁHOZ!",
+            "text": "INSTRUMENT DE AJUSTARE CADOU PENTRU FIECARE CEAS EVERWOOD!",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -616,7 +632,7 @@
         "richtext_qkjN68": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A dupla csatos <strong>rozsdamentes acél</strong> szíjat pár perc alatt mindenki a saját csuklójára méretezheti az <strong>ajándék tű</strong> segítségével. Nem kell óráshoz fordulnod, otthon pár perc alatt beállítható a szíj.</p>"
+            "content": "<p>Brățara din <strong>oțel inoxidabil</strong> cu închizătoare dublă poate fi ajustată de oricine în doar câteva minute, <strong>cu ajutorul instrumentului de ajustare inclus.</strong> Nu este nevoie să mergi la ceasornicar – brățara se poate regla rapid și ușor, chiar acasă.</p>"
           }
         }
       },
@@ -654,7 +670,7 @@
         "heading_eG9KML": {
           "type": "heading",
           "settings": {
-            "text": "EVERWOOD GARANCIA",
+            "text": "GARANȚIA EVERWOOD",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -663,7 +679,7 @@
         "richtext_CTNwJj": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Biztosak</strong> vagyunk benne, hogy <strong>elégedett leszel</strong> a termékünkkel, éppen ezért <strong>elégedettségi garanciát </strong>vállalunk minden egyes termékre, melyet 14 napig <strong>indoklás nélkül </strong>visszaveszünk vagy cseréljük díjmentesen. Ezen felül <strong>óráinkra  24-36 hónap teljes körű garanciát vállalunk.</strong></p>"
+            "content": "<p>Suntem <strong>convinși</strong> că <strong>vei fi mulțumit de produsul nostru</strong>, de aceea oferim <strong>o garanție de satisfacție</strong> pentru fiecare produs. În termen de 14 zile, <strong>poți returna sau schimba produsul gratuit</strong>, fără a oferi un motiv. În plus, ceasurile noastre beneficiază de <strong>o garanție completă de 24–36 de luni.</strong></p>"
           }
         }
       },
@@ -833,6 +849,7 @@
     "scrolling_text_rWgtRF",
     "image_with_text_overlay_xkmkNB",
     "rich_text_Rx8bXJ",
+    "image_with_text_overlay_EjUeUq",
     "rich_text_i3y83D",
     "image_with_text_overlay_VEyfpV",
     "rich_text_jBjrc4",
